@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(135deg, #f2f4f8, #e9eef5);
+}
+
+/* CARD */
+.card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  padding: 10px;
+}
+
+/* HEADER */
+.table-header {
+  background: linear-gradient(135deg, #2d6cdf, #1f4fb5);
+  color: white;
+}
+
+.table-header th {
+  padding: 16px;
+  text-align: center;
+  border: none;
+  font-weight: 500;
+}
+
+/* LINHAS */
+.table td {
+  text-align: center;
+  padding: 16px;
+  border: none;
+}
+
+/* efeito zebra melhor */
+.table tbody tr:nth-child(even) {
+  background-color: #f5f7fb;
+}
+
+/* hover elegante */
+.table-hover tbody tr:hover {
+  background: #e6eeff;
+  transform: scale(1.01);
+  transition: 0.2s;
+}
+
+/* barra cinza */
+.filtro {
+  height: 50px;
+  background: #e5e7eb;
+  border-radius: 30px;
+}
